@@ -38,12 +38,12 @@ do
 
     if (numero1 > numeroSecreto)
     {
-        Console.WriteLine($"\nEl numero {numero1} es mayor que el numero secreto.\nIntente de adivinar de nuevo\n");
+        Console.WriteLine($"\nEl numero {numero1} es mayor que el numero secreto.\nIntente adivinar de nuevo\n");
         bandera = 0;
     }
     else if (numero1 < numeroSecreto)
     {
-        Console.WriteLine($"\nEl numero {numero1} es menor que el numero secreto.\nIntente de adivinar de nuevo\n");
+        Console.WriteLine($"\nEl numero {numero1} es menor que el numero secreto.\nIntente adivinar de nuevo\n");
         bandera = 0;
     }
     else
