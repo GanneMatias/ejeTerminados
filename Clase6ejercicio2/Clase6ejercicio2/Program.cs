@@ -28,12 +28,12 @@
 int numeroSecreto = new
 Random(DateTime.Now.Millisecond).Next(1, 21);
 
-int contador= 0;
+int contador= 1;
 int bandera = 999;
 
 do
 {
-    Console.WriteLine("Ingrese un numero:");
+    Console.WriteLine("Ingrese un numero entero entre 1 y 20");
     int numero1 = Convert.ToInt32(Console.ReadLine());
 
     if (numero1 > numeroSecreto)
