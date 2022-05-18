@@ -10,7 +10,7 @@
 
 
 
-int[] numero = new int[5];
+int[] numero = new int[10];
 double suma=0;
 double promedio = 0;
 //Ingreso de numero y suma de numeros ingresados
