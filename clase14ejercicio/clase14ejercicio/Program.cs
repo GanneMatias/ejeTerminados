@@ -44,7 +44,7 @@ for (int i = 0; i < baraja.baraja.Length; i++)
 for (int i = -1; i < baraja.baraja.Length; i++)
 {
     Console.WriteLine("Ingrese la opcion a realizar");
-    Console.WriteLine("1_Barajar\n2_Mostrar siguiente carta\n3_Mostrar cartas dispoonibles\n4_Dar cartas\n5_Mostrar cartas del monton\n6_Mostrar baraja\n7_Salir");
+    Console.WriteLine("1_Barajar\n2_Mostrar siguiente carta\n3_Mostrar cartas disponibles\n4_Dar cartas\n5_Mostrar cartas del monton\n6_Mostrar baraja\n7_Salir");
     int respuesta = int.Parse(Console.ReadLine());
     switch (respuesta)
     {
